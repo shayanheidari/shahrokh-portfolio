@@ -38,7 +38,7 @@ body {
 }
 
 .card_ {
-  @apply drop-shadow-sm drop-shadow-accent md:drop-shadow-md bg-background p-5 md:h-[40vh] max-w-100 rounded-xl overflow-hidden md:hover:drop-shadow-accent md:hover:transform md:hover:-translate-y-2 transition delay-75 duration-300;
+  @apply drop-shadow-sm drop-shadow-accent md:drop-shadow-md bg-background p-5 md:h-[27vh] rounded-xl overflow-hidden md:hover:drop-shadow-accent md:hover:transform md:hover:-translate-y-2 transition delay-75 duration-300;
 }
 
 #tsparticles canvas {

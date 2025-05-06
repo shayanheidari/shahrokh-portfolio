@@ -15,19 +15,19 @@ const Hero = () => {
             <img
               src={ProfilePic}
               alt="shahrokh"
-              className="rounded-full w-[250px] md:w-[400px] outline-4 md:outline-5 outline-accent outline-offset-3"
+              className="rounded-full w-[200px] md:w-[400px] outline-4 md:outline-5 outline-accent outline-offset-3"
             />
           </div>
 
           <div className="glassmorphism transition duration-500 " opacity-100>
             <div className="max-w-[350px] md:max-w-[600px] opacity-100 p-3">
-              <h1 className="text-text font-bold text-4xl md:text-5xl mt-4 mb-6">
+              <h1 className="text-text font-bold text-3xl md:text-5xl md:mt-4 md:mb-6 mb-2 ">
                 Dr. Shahrokh Heidari
               </h1>
-              <h3 className="font-semibold text-2xl mb-1 text-accent">
+              <h3 className="font-semibold text-2xl md:mb-1 text-accent">
                 About Me
               </h3>
-              <p className="text-text text-justify tracking-normal text-base/6.5 md:text-[1.2rem] text-[1.1rem] h-75 md:h-auto overflow-y-scroll md:overflow-auto cursor-default">
+              <p className="text-text text-justify tracking-normal text-base/6.5 md:text-[1.2rem] text-[1.1rem] h-60 md:h-auto overflow-y-scroll md:overflow-auto cursor-default">
                 I am a computer vision researcher with over 5 years of
                 experience in developing and deploying advanced 2D and 3D vision
                 systems. My work lies at the intersection of artificial
