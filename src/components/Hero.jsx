@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
 
           <div className="glassmorphism transition duration-500 " opacity-100>
-            <div className="max-w-[350px] md:max-w-[500px] opacity-100 p-3">
+            <div className="max-w-[350px] md:max-w-[600px] opacity-100 p-3">
               <h1 className="text-text font-bold text-4xl md:text-5xl mt-4 mb-6">
                 Dr. Shahrokh Heidari
               </h1>
