@@ -7,7 +7,7 @@ const Background = () => {
         className="mx-auto justify-center flex flex-col h-screen snap-start"
         id="background"
       >
-        <div className="mx-10 mt-12 flex flex-col-reverse md:flex-row-reverse justify-center items-center gap-4 md:gap-9">
+        <div className="mx-10 mt-12 flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 justify-center items-center gap-4 ">
           <div className="card_ h-[28vh] pb-4">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Education
@@ -40,7 +40,7 @@ const Background = () => {
               biosecurity computer vision applications.
             </p>
           </div>
-          <div className="card_ h-[33vh]">
+          <div className="card_ h-[33vh] md:col-span-2">
             <h3 className="font-semibold text-2xl text-accent pb-3">
               Current Position
             </h3>
