@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <div
         style={{ "--image-url": `url(${Background})` }}
-        className="snap-start md:bg-[image:var(--image-url)] bg-cover bg-no-repeat "
+        className="snap-start bg-[image:var(--image-url)] bg-cover bg-no-repeat "
         id="about"
       >
         <div className="relative flex flex-col md:flex-row-reverse items-center md:justify-around justify-center md:gap-10 gap-10 content-between max-w-[1250px] mx-auto h-screen">
