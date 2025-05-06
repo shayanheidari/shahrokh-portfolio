@@ -27,6 +27,7 @@ const Hero = () => {
               <h3 className="font-semibold text-2xl mb-1 text-accent">
                 About Me
               </h3>
+
               <p className="text-text text-justify tracking-normal text-base/6.5 md:text-[1.2rem] text-[1.1rem] h-75 md:h-auto overflow-y-scroll md:overflow-auto cursor-default">
                 I am a computer vision researcher with over 5 years of
                 experience in developing and deploying advanced 2D and 3D vision
