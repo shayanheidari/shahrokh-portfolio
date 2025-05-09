@@ -5,12 +5,12 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Hero from "./components/Hero.jsx";
 import Navbar from "./components/Navbar.jsx";
-import Works from "./components/Works.jsx";
+import Thesis from "./components/works/thesis.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/about/2", element: [<Navbar />, <Hero />] },
-  { path: "/works/thesis", element: <Works /> },
+  { path: "/works/thesis", element: <Thesis /> },
 ]);
 
 createRoot(document.getElementById("root")).render(

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaGoogleScholar } from "react-icons/fa6";
-import { FaUniversity, FaLinkedin, FaResearchgate } from "react-icons/fa";
-import { SiOrcid, SiClarivate } from "react-icons/si";
+import { FaLinkedin, FaResearchgate, FaUniversity } from "react-icons/fa";
+import { SiClarivate, SiOrcid } from "react-icons/si";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -39,7 +39,7 @@ const Navbar = () => {
           </li>
           <li className="relative group">
             <a href="#skills" className="scroll-smooth">
-              Skills
+              Expertise
             </a>
             <span className="underline_" />
           </li>
@@ -68,11 +68,9 @@ const Navbar = () => {
           {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
         </div>
         <div
-          className={
-            nav
-              ? "text-center z-20 fixed h-full w-full left-0 top-0 bg-background"
-              : "fixed left-[-100%]"
-          }
+          className={nav
+            ? "text-center z-20 fixed h-full w-full left-0 top-0 bg-background"
+            : "fixed left-[-100%]"}
         >
           <div className="flex flex-col justify-between h-screen">
             <ul className="font-semibold text-4xl space-y-8 mt-24">
