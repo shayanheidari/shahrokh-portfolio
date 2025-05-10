@@ -1,6 +1,6 @@
 import React from "react";
 import ProfilePic from "../assets/ProfilePic.png";
-import Background from "../assets/Background1.jpg";
+import Background from "../assets/Background.png";
 
 const Hero = () => {
   return (
